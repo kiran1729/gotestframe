@@ -34,9 +34,6 @@ import (
   "github.com/zerostackinc/gotestframe/iprotos"
 )
 
-const cZSClientTimeout time.Duration = 1800 * time.Second
-const cOSClientTimeout time.Duration = 1 * time.Minute
-
 // TestSystem encapsulates the state and structures needed to run an integration
 // test.
 type TestSystem struct {
